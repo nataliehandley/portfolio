@@ -32,3 +32,17 @@ li:hover {
   border-bottom: 3px solid #e93b92;
   margin-bottom: -3px;
 }
+.hero {
+  background-color: #227c9d;
+  height: 30vh;
+  color: #a8dadc;
+  font-weight: 400;
+  padding: 30px;
+}
+h1,
+h2 {
+  font-weight: 500;
+}
+h1 {
+  font-size: 60px;
+}
