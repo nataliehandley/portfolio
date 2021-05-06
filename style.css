@@ -34,10 +34,10 @@ li:hover {
 }
 .hero {
   background-color: #227c9d;
-  height: 40vh;
+  height: 30vh;
   color: #a8dadc;
   font-weight: 400;
-  padding: 30px;
+  padding: 10px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,4 +68,15 @@ main {
   justify-content: center;
   align-items: center;
   padding: 20px;
+}
+.projects {
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-areas:
+    "box-1"
+    "box-2"
+    "box-3"
+    "box-4";
 }
