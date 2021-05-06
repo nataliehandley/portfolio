@@ -70,13 +70,32 @@ main {
   padding: 20px;
 }
 .projects {
-  height: 60vh;
+  height: 600px;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-rows: repeat(auto, 4);
   grid-template-areas:
     "box-1"
     "box-2"
     "box-3"
     "box-4";
+  border: 2px solid red;
+  width: 100%;
+  text-align: center;
+}
+.box-1 {
+  grid-area: "box-1";
+  border: 2px solid blue;
+}
+.box-2 {
+  grid-area: "box-2";
+  border: 2px solid green;
+}
+.box-3 {
+  grid-area: "box-3";
+  border: 2px solid pink;
+}
+.box-4 {
+  grid-area: "box-4";
+  border: 2px solid yellow;
 }
