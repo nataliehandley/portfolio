@@ -58,6 +58,7 @@ h1 {
 h2 {
   color: #227c9d;
   font-size: 30px;
+  
 }
 .sub-text {
   color: #ffcb77;
@@ -98,4 +99,11 @@ main {
 .box-4 {
   grid-area: "box-4";
   border: 2px solid yellow;
+}
+img {
+  width: 50%;
+  height: 75%;
+}
+.box {
+  border: 2px solid purple;
 }
