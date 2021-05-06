@@ -82,6 +82,7 @@ main {
 
   width: 100%;
   text-align: center;
+  padding: 20px;
 }
 .box-1 {
   grid-area: "box-1";
