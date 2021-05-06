@@ -8,8 +8,9 @@ body {
   font-weight: 700;
   font-size: 20px;
   width: 480px;
-  border: 2px solid blue;
+  border: 2px solid #e5e5e5;
   margin: 20px;
+  border-radius: 5px;
 }
 .nav-bar {
   display: flex;
@@ -65,12 +66,12 @@ h2 {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 20px;
+  height: 2500px;
 }
 .projects {
-  height: 1000px;
+  height: 70%;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: repeat(auto, 4);
@@ -83,6 +84,7 @@ main {
   width: 100%;
   text-align: center;
   padding: 20px;
+  gap: 30px;
 }
 .box-1 {
   grid-area: "box-1";
@@ -98,7 +100,16 @@ main {
 }
 img {
   width: 80%;
-  height: 80%;
+  height: 50%;
 }
 .box {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+.skills {
+  background-color: #227c9d;
 }
