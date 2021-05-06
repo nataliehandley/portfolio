@@ -58,7 +58,6 @@ h1 {
 h2 {
   color: #227c9d;
   font-size: 30px;
-  
 }
 .sub-text {
   color: #ffcb77;
@@ -80,30 +79,25 @@ main {
     "box-2"
     "box-3"
     "box-4";
-  border: 2px solid red;
+
   width: 100%;
   text-align: center;
 }
 .box-1 {
   grid-area: "box-1";
-  border: 2px solid blue;
 }
 .box-2 {
   grid-area: "box-2";
-  border: 2px solid green;
 }
 .box-3 {
   grid-area: "box-3";
-  border: 2px solid pink;
 }
 .box-4 {
   grid-area: "box-4";
-  border: 2px solid yellow;
 }
 img {
-  width: 50%;
-  height: 75%;
+  width: 80%;
+  height: 80%;
 }
 .box {
-  border: 2px solid purple;
 }
