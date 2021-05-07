@@ -67,7 +67,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 20px 0px;
   height: 2500px;
 }
 .projects {
@@ -112,4 +112,13 @@ img {
 }
 .skills {
   background-color: #227c9d;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  height: 15vh;
+}
+.skills-icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
 }
