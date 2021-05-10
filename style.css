@@ -5,7 +5,7 @@
 }
 body {
   font-family: "Barlow", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 20px;
   width: 480px;
   border: 2px solid #e5e5e5;
@@ -13,12 +13,9 @@ body {
   border-radius: 5px;
 }
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 100%;
-
-  padding: 20px;
+  height: 10vh;
+  padding: 35px;
   color: #a8dadc;
   background-color: #227c9d;
 }
@@ -28,6 +25,7 @@ li {
 }
 .nav-link {
   width: 60px;
+  color: #a8dadc;
 }
 .nav-link:hover {
   border-bottom: 3px solid #e93b92;
@@ -35,12 +33,12 @@ li {
 }
 .hero {
   background-color: #227c9d;
-  height: 30vh;
+  height: 70vh;
   color: #a8dadc;
   font-weight: 400;
-  padding: 10px 30px;
+  padding: 80px 0px 50px 30px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 h1,
@@ -48,31 +46,31 @@ h2 {
   font-weight: 500;
 }
 h1 {
-  font-size: 50px;
+  font-size: 60px;
 }
 .yellow-butterfly {
-  width: 60%;
+  width: 50%;
 }
 .name {
-  width: 40%;
+  width: 50%;
 }
 h2,
 footer {
   color: #227c9d;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
 }
 .sub-text {
   color: #ffcb77;
+  text-align: left;
 }
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 2500px;
+  height: 2800px;
 }
 .projects {
-  height: 70%;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: repeat(auto, 4);
@@ -84,8 +82,8 @@ main {
 
   width: 100%;
   text-align: center;
-  padding: 20px;
-  gap: 30px;
+  padding: 30px;
+  gap: 40px;
 }
 .box-1 {
   grid-area: "box-1";
@@ -106,9 +104,9 @@ img {
 .box {
   display: flex;
   flex-direction: column;
-  background-color: #e5e5e5;
+  background-color: #a8dadc;
   align-items: center;
-  padding: 10px;
+  padding: 30px 10px;
   border-radius: 5px;
 }
 .skills {
@@ -141,5 +139,14 @@ i:hover {
 
 button.navbar-toggler.collapsed {
   color: #a8dadc;
- 
+}
+.navbar-dark .navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  color: #a8dadc;
+}
+
+navbar-nav mr-auto {
+  border: 2px solid red;
 }
