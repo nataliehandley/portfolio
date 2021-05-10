@@ -12,19 +12,30 @@ body {
   margin: 20px;
   border-radius: 5px;
 }
+
 .navbar {
   width: 100%;
   height: 10vh;
-  padding: 35px;
+  padding: 30px 40px 30px 10px;
+  display: flex;
+  justify-content: flex-end;
   color: #a8dadc;
   background-color: #227c9d;
+}
+.navbar-collapse {
+  color: #a8dadc;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 20px 10px;
+  text-align: right;
 }
 
 li {
   list-style-type: none;
 }
 .nav-link {
-  width: 60px;
+  width: 70px;
   color: #a8dadc;
 }
 .nav-link:hover {
@@ -44,7 +55,7 @@ button.navbar-toggler.collapsed {
   height: 70vh;
   color: #a8dadc;
   font-weight: 400;
-  padding: 130px 0px 50px 30px;
+  padding: 20px 0px 20px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -127,7 +138,7 @@ img {
   background-color: #227c9d;
   width: 100%;
   text-align: center;
-  height: 30vh;
+  height: 40vh;
 }
 
 .skills-text {
