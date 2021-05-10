@@ -12,7 +12,7 @@ body {
   margin: 20px;
   border-radius: 5px;
 }
-.nav-bar {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,15 +22,14 @@ body {
   color: #a8dadc;
   background-color: #227c9d;
 }
-.list-items {
-  display: flex;
-  justify-content: space-around;
-  width: 60%;
-}
+
 li {
   list-style-type: none;
 }
-.nav-list:hover {
+.nav-link {
+  width: 60px;
+}
+.nav-link:hover {
   border-bottom: 3px solid #e93b92;
   margin-bottom: -3px;
 }
@@ -61,6 +60,7 @@ h2,
 footer {
   color: #227c9d;
   font-size: 30px;
+  text-align: center;
 }
 .sub-text {
   color: #ffcb77;
@@ -134,21 +134,12 @@ i:hover {
 .about-name {
   margin-bottom: 20px;
 }
-.fa-1x {
-  font-size: 1.5rem;
-  }
-  .navbar-toggler.toggler-example {
-  cursor: pointer;
-  }
-  .dark-blue-text {
-  color: #0A38F5;
-  }
-  .dark-pink-text {
-  color: #AC003A;
-  }
-  .dark-amber-text {
-  color: #ff6f00;
-  }
-  .dark-teal-text {
-  color: #004d40;
-  }
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+button.navbar-toggler.collapsed {
+  color: #a8dadc;
+ 
+}
