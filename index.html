@@ -17,37 +17,24 @@
 
 
 </head>
-<nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Never expand</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01"
-        aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+<!--Bootstrap nav bar-->
+<nav class="navbar navbar-expand-sm navbar-dark  text-white">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03"
+        aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarsExample01">
+    <div class="collapse navbar-collapse" id="navbarsExample03">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Skills</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
+                <a class="nav-link" href="#">Contact</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-md-0">
-            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-        </form>
     </div>
 </nav>
 
@@ -60,14 +47,14 @@
             </div>
             <img class="yellow-butterfly" src="images/butterflyEdit.svg">
         </div>
-        <nav class="nav-bar">
+        <!---- <nav class="nav-bar">
             <div class="logo">NH</div>
             <ul class="list-items">
                 <li class="nav-list">Projects</li>
                 <li class="nav-list">Skills</li>
                 <li class="nav-list">Contact</li>
             </ul>
-        </nav>
+        </nav>-->
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#227c9d" fill-opacity="1"
                 d="M0,64L80,58.7C160,53,320,43,480,74.7C640,107,800,181,960,202.7C1120,224,1280,192,1360,176L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
@@ -139,15 +126,15 @@
     </main>
     <footer>
         <h2>Contact</h2>
-        <ul>
+        <ul class="contact">
             <li><i class="fab fa-twitter"></i></li>
-            <li><i class="fab fa-github"></li>
+            <li><i class="fab fa-github"></i></li>
             <li><i class="fas fa-envelope"></i></li>
-            <li>Phone icon</li>
-            <li>LinkdIn icon</li>
+            <li><i class="fas fa-phone"></i></li>
+            <li><i class="fab fa-linkedin"></i></li>
         </ul>
     </footer>
-    !-- JQuery -->
+    <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript"
