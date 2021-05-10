@@ -71,6 +71,8 @@ main {
   height: 2800px;
 }
 .projects {
+  height: 80%;
+  margin-bottom: 30px;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: repeat(auto, 4);
@@ -113,7 +115,6 @@ img {
   background-color: #227c9d;
   width: 100%;
   text-align: center;
-
   height: 20vh;
 }
 .skills-icons {
@@ -149,4 +150,9 @@ button.navbar-toggler.collapsed {
 
 navbar-nav mr-auto {
   border: 2px solid red;
+}
+
+.wave {
+  width: 100%;
+  vertical-align: bottom;
 }
