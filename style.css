@@ -68,10 +68,13 @@ h1 {
   font-size: 60px;
 }
 .yellow-butterfly {
-  width: 50%;
+  width: 90%;
+  height: 70vh;
+  margin-left: 140px;
+  margin-top: 30px;
 }
 .name {
-  width: 50%;
+  width: 10%;
 }
 h2,
 footer {
@@ -156,6 +159,8 @@ i:hover {
 .about {
   text-align: center;
   padding: 30px;
+  background-image: url("images/butterflyEdit50.svg");
+  background-size: contain;
 }
 .about-name {
   margin-bottom: 20px;
@@ -169,4 +174,23 @@ footer {
   background-color: #a8dadc;
   height: 20vh;
   padding-top: 20px;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 480px) {
+  body {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  body {
+    width: 100%;
+  }
 }
