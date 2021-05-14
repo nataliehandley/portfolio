@@ -3,13 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
   font-size: 20px;
   width: 480px;
   border: 2px solid #e5e5e5;
-  margin: 20px;
   border-radius: 5px;
 }
 
@@ -68,13 +68,12 @@ h1 {
   font-size: 60px;
 }
 .yellow-butterfly {
-  width: 90%;
+  width: 65%;
   height: 70vh;
-  margin-left: 140px;
-  margin-top: 30px;
+  padding-top: 50px;
 }
 .name {
-  width: 10%;
+  width: 35%;
 }
 h2,
 footer {
@@ -178,19 +177,52 @@ footer {
 
 /*MEDIA QUERIES*/
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
   body {
     width: 100%;
   }
-}
-@media screen and (min-width: 768px) {
-  body {
+  .navbar-nav {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-item {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-nav {
+    justify-content: flex-end;
+  }
+  .nav-item {
+    padding: 5px 40px;
+  }
+  .projects {
+    grid-template-columns: 49% 49%;
+    grid-template-rows: repeat(auto, 2);
+    grid-template-areas:
+      "box-1 box-2"
+      "box-3 box-4";
+    margin: 0 auto;
+    justify-content: center;
+  }
+  img {
+    height: 30%;
   }
 }
 
 @media screen and (min-width: 991px) {
-  body {
-    width: 100%;
+  h1 {
+    font-size: 100px;
+  }
+  .sub-text {
+    font-size: 60px;
+  }
+  .name {
+    padding-left: 50px;
+  }
+  img {
+    height: 50%;
   }
 }
