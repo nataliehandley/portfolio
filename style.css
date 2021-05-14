@@ -89,7 +89,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 3100px;
 }
 .projects {
   height: 80%;
@@ -167,12 +166,14 @@ i:hover {
 .contact {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 30px;
 }
 
 footer {
   background-color: #a8dadc;
-  height: 20vh;
+  height: 25vh;
   padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 /*MEDIA QUERIES*/
@@ -199,6 +200,7 @@ footer {
     padding: 5px 40px;
   }
   .projects {
+    height: 40%;
     grid-template-columns: 49% 49%;
     grid-template-rows: repeat(auto, 2);
     grid-template-areas:
@@ -206,9 +208,13 @@ footer {
       "box-3 box-4";
     margin: 0 auto;
     justify-content: center;
+    padding: 40px;
   }
   img {
     height: 30%;
+  }
+  .skills {
+    height: 20vh;
   }
 }
 
@@ -223,6 +229,6 @@ footer {
     padding-left: 50px;
   }
   img {
-    height: 50%;
+    height: 80%;
   }
 }
