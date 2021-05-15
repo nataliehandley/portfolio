@@ -39,3 +39,97 @@
     text-align: right;
   }
  
+  .hero {
+    background-color: $color-primary;
+    height: 70vh;
+    color: $color-secondary;
+    font-weight: 400;
+    padding: 20px 0px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .yellow-butterfly {
+      width: 65%;
+      height: 70vh;
+      padding-top: 50px;
+    }
+
+    .name {
+      width: 35%;
+    }
+
+    .sub-text {
+      color:$color-yellow;
+      text-align: left;
+    }
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  h1 {
+      font-size: 60px;
+      color:$color-secondary;
+      font-weight: 500;
+    }
+  h2 {
+        color: $color-primary;
+        font-size: 40px;
+        text-align: center;
+        font-weight: 500;
+      }
+  
+      
+  
+  .skills {
+    background-color: $color-primary;
+    width: 100%;
+    text-align: center;
+    height: 40vh;
+
+    .skills-text {
+        color: $color-yellow;
+      }
+
+    .skills-icons {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+      }
+  }
+  
+
+  
+  
+  i:hover {
+    color: $color-pink;
+    text-decoration: none;
+  }
+  .about {
+    text-align: center;
+    padding: 30px;
+    background-image: url("images/butterflyEdit50.svg");
+    background-size: contain;
+
+    .about-name {
+        margin-bottom: 20px;
+      }
+  }
+ 
+  .contact {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+  }
+
+  footer {
+    background-color: $color-secondary;
+    height: 25vh;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: $color-primary;
+    font-size: 40px;
+    text-align: center;
+  }
