@@ -59,21 +59,22 @@
       width: 35%;
     }
 
-    .sub-text {
-      color:$color-yellow;
-      text-align: left;
-    }
+    
   }
 
   li {
     list-style-type: none;
   }
 
-  h1 {
+  .name__heading {
       font-size: 60px;
       color:$color-secondary;
       font-weight: 500;
     }
+    .name__sub-heading {
+        color:$color-yellow;
+        text-align: left;
+      }
   h2 {
         color: $color-primary;
         font-size: 40px;
@@ -89,11 +90,11 @@
     text-align: center;
     height: 40vh;
 
-    .skills-text {
+    .skills__text {
         color: $color-yellow;
       }
 
-    .skills-icons {
+    .skills__icons {
         display: flex;
         justify-content: space-around;
         padding: 20px;
@@ -113,12 +114,12 @@
     background-image: url("images/butterflyEdit50.svg");
     background-size: contain;
 
-    .about-name {
+    .about__name {
         margin-bottom: 20px;
       }
   }
  
-  .contact {
+  .contact__list {
     display: flex;
     justify-content: space-around;
     padding-bottom: 30px;
