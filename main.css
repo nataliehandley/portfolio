@@ -68,12 +68,9 @@ body {
   height: 70vh;
   padding-top: 50px;
 }
-.hero .name {
-  width: 35%;
-}
 
-li {
-  list-style-type: none;
+.name {
+  width: 35%;
 }
 
 .name__heading {
@@ -85,6 +82,10 @@ li {
 .name__sub-heading {
   color: #ffcb77;
   text-align: left;
+}
+
+li {
+  list-style-type: none;
 }
 
 h2 {
@@ -100,10 +101,10 @@ h2 {
   text-align: center;
   height: 40vh;
 }
-.skills .skills__text {
+.skills__text {
   color: #ffcb77;
 }
-.skills .skills__icons {
+.skills__icons {
   display: flex;
   justify-content: space-around;
   padding: 20px;
@@ -120,24 +121,23 @@ i:hover {
   background-image: url("images/butterflyEdit50.svg");
   background-size: contain;
 }
-.about .about__name {
+.about__name {
   margin-bottom: 20px;
 }
 
+.contact {
+  background-color: #a8dadc;
+  height: 30vh;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: #227c9d;
+  font-size: 40px;
+  text-align: center;
+}
 .contact__list {
   display: flex;
   justify-content: space-around;
   padding-bottom: 30px;
-}
-
-footer {
-  background-color: #a8dadc;
-  height: 25vh;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  color: #227c9d;
-  font-size: 40px;
-  text-align: center;
 }
 
 main {
