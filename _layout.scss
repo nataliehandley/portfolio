@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects {
+    height: 80%;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto, 4);
+    grid-template-areas:
+      "box-1"
+      "box-2"
+      "box-3"
+      "box-4";
+  
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    gap: 40px;
+  }
+  .box-1 {
+    grid-area: "box-1";
+  }
+  .box-2 {
+    grid-area: "box-2";
+  }
+  .box-3 {
+    grid-area: "box-3";
+  }
+  .box-4 {
+    grid-area: "box-4";
+  }
+
+  img {
+    width: 80%;
+    height: 50%;
+  
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-secondary;
+    align-items: center;
+    padding: 30px 10px;
+    border-radius: 5px;
+  }
+  .wave {
+    width: 100%;
+    vertical-align: bottom;
+  }
