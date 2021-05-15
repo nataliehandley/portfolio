@@ -222,7 +222,8 @@ footer {
   h1 {
     font-size: 100px;
   }
-  .sub-text {
+  .sub-text,
+  h2 {
     font-size: 60px;
   }
   .name {
@@ -230,5 +231,26 @@ footer {
   }
   img {
     height: 80%;
+  }
+  .skills {
+    height: 45vh;
+  }
+  .wave {
+    vertical-align: bottom;
+  }
+  .about {
+    height: 60vh;
+  }
+  p {
+    font-size: 30px;
+  }
+  footer {
+    height: 35vh;
+  }
+  .contact {
+    font-size: 60px;
+  }
+  .skills-icons {
+    font-size: 40px;
   }
 }
