@@ -41,10 +41,10 @@
   }
   
   @media screen and (min-width: 991px) {
-    h1 {
+    .name__heading {
       font-size: 100px;
     }
-    .sub-text,
+    .name__sub-heading,
     h2 {
       font-size: 60px;
     }
@@ -72,7 +72,7 @@
     .contact {
       font-size: 60px;
     }
-    .skills-icons {
+    .skills__icons {
       font-size: 40px;
     }
     .nav-link {
