@@ -1,0 +1,41 @@
+
+  .navbar {
+    width: 100%;
+    height: 10vh;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: $color-secondary;
+    background-color: $color-primary;
+
+    button.navbar-toggler.collapsed {
+        color: $color-secondary;
+      }
+      
+    .navbar-toggler:focus {
+        color: $color-secondary;
+      }
+
+
+    .nav-link {
+        color: $color-secondary;    
+      }
+
+    .nav-link:hover { 
+        border-bottom: 3px solid $color-pink;
+        margin-bottom: -3px;
+      }
+
+  }
+
+  
+  .navbar-collapse {
+    color: $color-secondary;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 20px 10px;
+    text-align: right;
+  }
+ 
