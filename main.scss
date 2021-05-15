@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 480px;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px;
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 10vh;
+    padding: 30px 40px 30px 10px;
+    display: flex;
+    justify-content: flex-end;
+    color: #a8dadc;
+    background-color: #227c9d;
+  }
+  .navbar-collapse {
+    color: #a8dadc;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 20px 10px;
+    text-align: right;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  .nav-link {
+    width: 70px;
+    color: #a8dadc;
+  }
+  .nav-link:hover {
+    border-bottom: 3px solid #e93b92;
+    margin-bottom: -3px;
+  }
+  button.navbar-toggler.collapsed {
+    color: #a8dadc;
+  }
+  
+  .navbar-toggler:focus {
+    color: #a8dadc;
+  }
+  
+  .hero {
+    background-color: #227c9d;
+    height: 70vh;
+    color: #a8dadc;
+    font-weight: 400;
+    padding: 20px 0px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1,
+  h2 {
+    font-weight: 500;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  .yellow-butterfly {
+    width: 65%;
+    height: 70vh;
+    padding-top: 50px;
+  }
+  .name {
+    width: 35%;
+  }
+  h2,
+  footer {
+    color: #227c9d;
+    font-size: 40px;
+    text-align: center;
+  }
+  .sub-text {
+    color: #ffcb77;
+    text-align: left;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects {
+    height: 80%;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto, 4);
+    grid-template-areas:
+      "box-1"
+      "box-2"
+      "box-3"
+      "box-4";
+  
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    gap: 40px;
+  }
+  .box-1 {
+    grid-area: "box-1";
+  }
+  .box-2 {
+    grid-area: "box-2";
+  }
+  .box-3 {
+    grid-area: "box-3";
+  }
+  .box-4 {
+    grid-area: "box-4";
+  }
+  img {
+    width: 80%;
+    height: 50%;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    background-color: #a8dadc;
+    align-items: center;
+    padding: 30px 10px;
+    border-radius: 5px;
+  }
+  .wave {
+    width: 100%;
+    vertical-align: bottom;
+  }
+  .skills {
+    background-color: #227c9d;
+    width: 100%;
+    text-align: center;
+    height: 40vh;
+  }
+  
+  .skills-text {
+    color: #ffcb77;
+  }
+  .skills-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  i:hover {
+    color: #e93b92;
+    text-decoration: none;
+  }
+  .about {
+    text-align: center;
+    padding: 30px;
+    background-image: url("images/butterflyEdit50.svg");
+    background-size: contain;
+  }
+  .about-name {
+    margin-bottom: 20px;
+  }
+  .contact {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+  }
+  
+  footer {
+    background-color: #a8dadc;
+    height: 25vh;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  
+  /*MEDIA QUERIES*/
+  
+  @media screen and (min-width: 600px) {
+    body {
+      width: 100%;
+    }
+    .navbar-nav {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .nav-item {
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .navbar-nav {
+      justify-content: flex-end;
+    }
+    .nav-item {
+      padding: 5px 40px;
+    }
+    .projects {
+      height: 40%;
+      grid-template-columns: 49% 49%;
+      grid-template-rows: repeat(auto, 2);
+      grid-template-areas:
+        "box-1 box-2"
+        "box-3 box-4";
+      margin: 0 auto;
+      justify-content: center;
+      padding: 40px;
+    }
+    img {
+      height: 30%;
+    }
+    .skills {
+      height: 20vh;
+    }
+  }
+  
+  @media screen and (min-width: 991px) {
+    h1 {
+      font-size: 100px;
+    }
+    .sub-text,
+    h2 {
+      font-size: 60px;
+    }
+    .name {
+      padding-left: 50px;
+    }
+    img {
+      height: 80%;
+    }
+    .skills {
+      height: 45vh;
+    }
+    .wave {
+      vertical-align: bottom;
+    }
+    .about {
+      height: 60vh;
+    }
+    p {
+      font-size: 30px;
+    }
+    footer {
+      height: 35vh;
+    }
+    .contact {
+      font-size: 60px;
+    }
+    .skills-icons {
+      font-size: 40px;
+    }
+  }
+  
