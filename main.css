@@ -71,19 +71,20 @@ body {
 .hero .name {
   width: 35%;
 }
-.hero .sub-text {
-  color: #ffcb77;
-  text-align: left;
-}
 
 li {
   list-style-type: none;
 }
 
-h1 {
+.name__heading {
   font-size: 60px;
   color: #a8dadc;
   font-weight: 500;
+}
+
+.name__sub-heading {
+  color: #ffcb77;
+  text-align: left;
 }
 
 h2 {
@@ -91,6 +92,52 @@ h2 {
   font-size: 40px;
   text-align: center;
   font-weight: 500;
+}
+
+.skills {
+  background-color: #227c9d;
+  width: 100%;
+  text-align: center;
+  height: 40vh;
+}
+.skills .skills__text {
+  color: #ffcb77;
+}
+.skills .skills__icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+i:hover {
+  color: #e93b92;
+  text-decoration: none;
+}
+
+.about {
+  text-align: center;
+  padding: 30px;
+  background-image: url("images/butterflyEdit50.svg");
+  background-size: contain;
+}
+.about .about__name {
+  margin-bottom: 20px;
+}
+
+.contact__list {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+
+footer {
+  background-color: #a8dadc;
+  height: 25vh;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #227c9d;
+  font-size: 40px;
+  text-align: center;
 }
 
 main {
@@ -147,52 +194,6 @@ img {
   vertical-align: bottom;
 }
 
-.skills {
-  background-color: #227c9d;
-  width: 100%;
-  text-align: center;
-  height: 40vh;
-}
-.skills .skills-text {
-  color: #ffcb77;
-}
-.skills .skills-icons {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-}
-
-i:hover {
-  color: #e93b92;
-  text-decoration: none;
-}
-
-.about {
-  text-align: center;
-  padding: 30px;
-  background-image: url("images/butterflyEdit50.svg");
-  background-size: contain;
-}
-.about .about-name {
-  margin-bottom: 20px;
-}
-
-.contact {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 30px;
-}
-
-footer {
-  background-color: #a8dadc;
-  height: 25vh;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  color: #227c9d;
-  font-size: 40px;
-  text-align: center;
-}
-
 /*MEDIA QUERIES*/
 @media screen and (min-width: 600px) {
   body {
@@ -237,11 +238,11 @@ footer {
   }
 }
 @media screen and (min-width: 991px) {
-  h1 {
+  .name__heading {
     font-size: 100px;
   }
 
-  .sub-text,
+  .name__sub-heading,
 h2 {
     font-size: 60px;
   }
@@ -278,7 +279,7 @@ h2 {
     font-size: 60px;
   }
 
-  .skills-icons {
+  .skills__icons {
     font-size: 40px;
   }
 
