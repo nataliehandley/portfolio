@@ -20,39 +20,6 @@ body {
   border-radius: 5px;
 }
 
-.navbar {
-  width: 100%;
-  height: 10vh;
-  padding: 30px 40px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  color: #a8dadc;
-  background-color: #227c9d;
-}
-.navbar button.navbar-toggler.collapsed {
-  color: #a8dadc;
-}
-.navbar .navbar-toggler:focus {
-  color: #a8dadc;
-}
-.navbar .nav-link {
-  color: #a8dadc;
-}
-.navbar .nav-link:hover {
-  border-bottom: 3px solid #e93b92;
-  margin-bottom: -3px;
-}
-
-.navbar-collapse {
-  color: #a8dadc;
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  padding: 20px 10px;
-  text-align: right;
-}
-
 .hero {
   background-color: #227c9d;
   height: 70vh;
@@ -286,4 +253,36 @@ h2 {
   .nav-link {
     width: 100px;
   }
+}
+.navbar {
+  width: 100%;
+  height: 10vh;
+  padding: 30px 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #a8dadc;
+  background-color: #227c9d;
+}
+.navbar button.navbar-toggler.collapsed {
+  color: #a8dadc;
+}
+.navbar .navbar-toggler:focus {
+  color: #a8dadc;
+}
+.navbar .nav-link {
+  color: #a8dadc;
+}
+.navbar .nav-link:hover {
+  border-bottom: 3px solid #e93b92;
+  margin-bottom: -3px;
+}
+
+.navbar-collapse {
+  color: #a8dadc;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 20px 10px;
+  text-align: right;
 }
